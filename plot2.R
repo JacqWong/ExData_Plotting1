@@ -14,5 +14,6 @@ GlobalActivePower <- as.numeric(as.character(subpowerdt$Global_active_power))
 #plot date against global active power
 plot(datetime, GlobalActivePower,
      type="l",xlab="",ylab="Global Active Power (kilowatts)")
+#save plot
 dev.copy(png, 'plot2.png')
 dev.off()
