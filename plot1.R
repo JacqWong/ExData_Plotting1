@@ -14,6 +14,6 @@ GlobalActivePower <- as.numeric(as.character(subpowerdt$Global_active_power))
 hist(GlobalActivePower, main="Global Active Power", 
     xlab="Global Active Power (kilowatts)", ylab="Frequency", col="Red")
 
-#save as png 
+#save as png
 dev.copy(png, 'plot1.png')
 dev.off()
