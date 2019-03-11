@@ -35,6 +35,6 @@ legend("topright"
 #Plot 4
 plot(datetime, GlobalReactivePower, type="l", xlab="datetime", ylab="Global_reactive_power")
 
-#save as png 
+#save as png  
 dev.copy(png, 'plot4.png')
 dev.off()
